@@ -1,0 +1,16 @@
+[debug] [2021-04-10T06:57:10.129Z] ----------------------------------------------------------------------
+[debug] [2021-04-10T06:57:10.132Z] Command:       /usr/bin/node /usr/bin/firebase deploy --only functions
+[debug] [2021-04-10T06:57:10.132Z] CLI Version:   9.9.0
+[debug] [2021-04-10T06:57:10.133Z] Platform:      linux
+[debug] [2021-04-10T06:57:10.133Z] Node Version:  v12.19.0
+[debug] [2021-04-10T06:57:10.133Z] Time:          Sat Apr 10 2021 09:57:10 GMT+0300 (East Africa Time)
+[debug] [2021-04-10T06:57:10.134Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-04-10T06:57:10.143Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-10T06:57:10.143Z] > authorizing via signed-in user (ramanamihanta.ando@gmail.com)
+[debug] [2021-04-10T06:57:10.143Z] [iam] checking project react-firebase-chatrooms-app for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2021-04-10T06:57:10.146Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/react-firebase-chatrooms-app:testIamPermissions  
+ {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2021-04-10T06:57:13.219Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 10 Apr 2021 06:57:13 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1536","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-10T06:57:13.225Z] >>> HTTP REQUEST POST https://iam.googleapis.com/v1/projects/react-firebase-chatrooms-app/serviceAccounts/react-firebase-chatrooms-app@appspot.gserviceaccount.com:testIamPermissions  
+ {"permissions":["iam.serviceAccounts.actAs"]}
