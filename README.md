@@ -1,1 +1,1 @@
-CHATROOMS APP WITH REACT AND FIREBASE  🔥
+CHATROOMS: with React and Firebase  🔥
